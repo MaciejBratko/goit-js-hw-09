@@ -96,12 +96,8 @@ document.addEventListener('DOMContentLoaded', () => {
     showCounter: true,
     animationSpeed: 250,
     preloading: true,
-    loop: true,
-    docClose: true,
     overlayOpacity: 0.7,
     className: 'simple-lightbox',
-    widthRatio: 0.8,
-    heightRatio: 0.9,
   });
 
   lightbox.on('show.simplelightbox', () => {
